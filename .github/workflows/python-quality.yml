@@ -1,0 +1,22 @@
+name: 🤖 Python Quality
+
+run-name: 🤖 Python Quality
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  quality:
+    name: Python Quality
+    uses: albr21/gha-reusable-workflows/.github/workflows/reusable-python-quality.yml@main
+    secrets: inherit

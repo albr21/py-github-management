@@ -1,8 +1,11 @@
-name: <project-name>
+name: py-github-management
 description: |-
-  <project-description>
-version: 0.0.0
+  Python tool for managing GitHub organizations and repositories
+version: 1.0.0
 releases:
+  - version: 1.0.0
+    changes:
+      - Initial release
   - version: 0.0.0
     changes:
       - Under development

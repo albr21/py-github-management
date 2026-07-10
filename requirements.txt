@@ -1,0 +1,2 @@
+PyGitHub>=2.9
+PyYAML>=6.0

@@ -1,10 +1,10 @@
-# <project-name>
+# py-github-management
 
-<!-- A brief description of the project. -->
+Python tool for managing GitHub organizations and repositories.
 
 ## Usage
 
-<!-- Provide instructions on how to use the project, including code examples if applicable. -->
+Check out the [CLI Reference](docs/CLI.md) for detailed information on how to use the command-line interface.
 
 ## Contributing
 
@@ -12,4 +12,4 @@ Check out the [CONTRIBUTING](CONTRIBUTING.md) file for guidelines on how to cont
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the AGPL License - see the [LICENSE](LICENSE) file for details.

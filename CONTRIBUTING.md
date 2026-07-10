@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for considering contributing to **<project-name>**! Here’s how you can help:
+Thanks for considering contributing to **py-github-management**! Here’s how you can help:
 
 ## How to Contribute
 1. **Fork** the repository
