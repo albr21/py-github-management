@@ -27,6 +27,7 @@ class TestCreationConfigurationCreate:
         branch_protection = Mock()
         pr_configuration = Mock()
         created_repository = SimpleNamespace(name="new-repo")
+        created_repository.edit = Mock()
 
         class FakeUser:
             def __init__(self):
@@ -43,6 +44,8 @@ class TestCreationConfigurationCreate:
                 get_repo=lambda name: SimpleNamespace(name=name),
             )
         )
+
+
 
         configuration = Configuration(
             template_repository="org/template",
